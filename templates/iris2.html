@@ -1,0 +1,31 @@
+{% block head %}
+<html>
+    <head>
+
+
+    </head>
+    <body style="background-color: burlywood;">
+        <div style='margin-top: 5%;'>
+            <center><h1>Enter the details</h1></center><br><br>
+            <center>
+            <form method='POST' action='/afteriris2/'>
+                <label style='font-size: 200%;'>Sepal length :-</label>
+                <input type="text"  name='sepal_length' required><br><br>
+                <label style='font-size: 200%;'>Petal length :-</label>
+                <input type="text" name='petal_length' required><br><br>
+                <label style='font-size: 200%;'>Sepal width :-</label>
+                <input type="text" name='sepal_width' required><br><br>
+                <label style='font-size: 200%;'>Petal width :-</label>
+                <input type="text" name='petal_width' required><br><br><br><br>
+                <button style='font-size: 200%; background-color: burlywood;'>submit</button>
+
+            </form>
+
+
+            
+            </center>
+        </div>
+        
+    </body>
+</html>
+{% endblock %}
